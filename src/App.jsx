@@ -6,8 +6,8 @@ import axios from "axios"
 function App() {
 
   const [amount,setAmount]=useState("1");
-  const [fromAmount,setFromAround]=useState("INR");
-  const [toAmount,setToAmount]=useState("USD");
+  const [fromAmount,setFromAround]=useState("USD");
+  const [toAmount,setToAmount]=useState("INR");
   const [convertedAmount,setConvertedAmount]=useState(null);
   const [exchangeRate,setExchangeRate]=useState(null);
 
